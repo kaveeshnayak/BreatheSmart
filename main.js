@@ -9,6 +9,10 @@ function myFunction() {
     console.log(data["data"]["aqi"]);
     let x=data["data"]["aqi"];
     document.getElementById("richTextBox").value=String(x)
+    if(document.getElementById("richTextBox").value==undefined)
+       {
+      document.getElementById=String(160)
+    }
   });
 
 }
