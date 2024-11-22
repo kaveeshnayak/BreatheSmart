@@ -9,7 +9,7 @@ function myFunction() {
     console.log(data["data"]["aqi"]);
     let x=data["data"]["aqi"];
     document.getElementById("richTextBox").value=String(x)
-    if(document.getElementById("richTextBox").value==undefined)
+    if(document.getElementById("richTextBox").value=="Kurukshetra")
        {
       document.getElementById("richTextBox").value=String(160)
     }
