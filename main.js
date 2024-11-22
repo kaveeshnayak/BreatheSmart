@@ -11,7 +11,7 @@ function myFunction() {
     document.getElementById("richTextBox").value=String(x)
     if(document.getElementById("richTextBox").value==undefined)
        {
-      document.getElementById=String(160)
+      document.getElementById("richTextBox").value=String(160)
     }
   });
 
